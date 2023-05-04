@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+#logo{
+    width: 120px;
+    height: 120px;
+    margin: 0 20px;
+}
+#marca{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 4vw;
+    margin: 0 20px;
+    color: rgb(59, 59, 59);
+}
+.cabeca{
+    width: 100%;
+    height: 180px;
+    background-color: #faebd7;
+}
+#box-tittle{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#options{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-color: #FBCB8C;
+    list-style: none;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+header nav ul a{
+    display: flex;
+    align-items: center ;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    padding: 0 10px;
+}
+a:hover{
+    background-color:#faebd7;
+    transition: 0.3s;
+}
+main{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.propaganda{
+    width: 10%;
+    height: auto;
+    margin: 1vw 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 211, 211);
+}
+.propaganda p{
+    width: auto;
+    height: 100px;
+}
+#div-princ{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+article{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-pequeno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21%;
+    height: 25vw;
+    background-color: rgb(238, 215, 182);
+    margin: 2vw 1vw;
+    border-radius: 1vw;
+}
+.card-grande{
+    width: 96%;
+    height: 15vw;
+    background-color: rgb(238, 215, 182) ;
+    border-radius: 1vw;
+    margin: 0 auto 2vw auto;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #faebd7;
+    width: 100%;
+    height: auto;
+}
+.footer-pai{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-filho{
+    margin: 70px 0;
+}
+.footer-tittle{
+    font-size: 1vw;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+.footer-txt{
+    margin-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8vw;
+}
+#contato-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.contato-img{
+    width: 45px;
+    height: 45px;
+    margin: 15px 13px 45px 13px;
+}
+.passeio{
+    font-size: 4vw;
+}
