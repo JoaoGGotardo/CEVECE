@@ -39,10 +39,12 @@ header nav ul a{
     text-decoration: none;
     color: rgb(59, 59, 59);
     padding: 0 10px;
+    border-radius: 0 0 0.7vw 0.7vw;
 }
-a:hover{
+header a:hover{
     background-color:#faebd7;
     transition: 0.3s;
+    transform: translateY(-3px) translateX(0px);
 }
 main{
     height: auto;
@@ -57,10 +59,14 @@ main{
     justify-content: center;
     align-items: center;
     background-color: rgb(212, 211, 211);
+    box-shadow: 0px 0px 8px -1px;
+    border-radius: 0.6vw;
+
 }
 .propaganda p{
     width: auto;
     height: 100px;
+    color: rgb(59, 59, 59);
 }
 #div-princ{
     width: 80%;
@@ -83,16 +89,84 @@ article{
     height: 25vw;
     background-color: rgb(238, 215, 182);
     margin: 2vw 1vw;
-    border-radius: 1vw;
+    border-radius: 0.6vw;
+    box-shadow: 2px 2px 8px -1px;
+}
+.card-pequeno:hover{
+    transform: translateY(-4px) translateX(-6px);
+    transition: 0.4s;
+    box-shadow: 5px 5px 8px -1px;
+}
+.card-pequeno:active {
+    transform: translateY(0px) translateX(0px);
+    box-shadow: 2px 2px 8px -1px;
+}
+.card-pequeno a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+.cardP-img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.6vw 0.6vw 0 0;
+}
+.cardP-tittle{
+    margin: 1.5vw 0;
+    color: rgb(59, 59, 59);
+    font-size: 1.1vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.cardP-txt{
+    width: 75%;
+    height: auto;
+    color: rgb(59, 59, 59);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9vw;
 }
 .card-grande{
     width: 96%;
     height: 15vw;
     background-color: rgb(238, 215, 182) ;
-    border-radius: 1vw;
+    border-radius: 0.6vw;
     margin: 0 auto 2vw auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 3px 8px -1px;
+}
+.card-grande:hover{
+    transform: translateY(-10px) translateX(0px);
+    transition: 0.5s;
+    box-shadow: 1px 5px 8px -1px;
+}
+.card-grande:active {
+    transform: translateY(0px) translateX(0px);
+    box-shadow: 1px 3px 8px -1px;
+}
+.cardG-img{
+    height: 100%;
+    width: 30%;
+    border-radius: 0.6vw 0 0 0.6vw;
+}
+.div-CG-txt{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cardG-tittle{
+    margin-top: 1.5vw;
+    font-size: 1.1vw;
+    color: rgb(59, 59, 59);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.cardG-txt{
+    width: 80%;
+    margin-top: 1.5vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.86vw;
 }
 footer{
     background-color: #faebd7;
@@ -110,11 +184,13 @@ footer{
     font-size: 1vw;
     font-family:'Courier New', Courier, monospace;
     margin-bottom: 30px;
+    color: rgb(59, 59, 59);
 }
 .footer-txt{
     margin-bottom: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8vw;
+    color: rgb(59, 59, 59);
 }
 #contato-pai{
     display: flex;
@@ -131,4 +207,5 @@ footer{
 }
 .passeio{
     font-size: 4vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
