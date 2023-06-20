@@ -107,6 +107,9 @@ article{
     text-decoration: none;
     color: rgb(59, 59, 59);
 }
+.card-pequeno button{
+    margin-top: 1.4vw;
+}
 .cardP-img{
     width: 100%;
     height: auto;
@@ -116,7 +119,7 @@ article{
     margin: 1.5vw 0;
     color: rgb(59, 59, 59);
     font-size: 1.1vw;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .cardP-txt{
     width: 75%;
@@ -132,7 +135,7 @@ article{
     border-radius: 0.6vw;
     margin: 0 auto 2vw auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     box-shadow: 1px 3px 8px -1px;
 }
@@ -145,6 +148,156 @@ article{
     transform: translateY(0px) translateX(0px);
     box-shadow: 1px 3px 8px -1px;
 }
+.cal-preco{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(59, 59, 59);
+    font-size: 0.8vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cal-preco2{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: rgb(59, 59, 59);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9vw;
+}
+.cal-preco2 select{
+    height: 2vw;
+    width: 100%;
+    margin-top: 0.6vw;
+}
+#button-cal{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+#button-cal input{
+    height: 2vw;
+}
+#button-cal button{
+    height: 2vw;
+}
+#compra{
+    width: 80%;
+    height: 35.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ------------------- */
+
+main article #acentos{
+    height: 20vw;
+    width: 100%;
+    display: flex;
+}
+main article #acentos button{
+    font-size: 1vw;
+}
+main article #acentos #traseiros{
+    height: 100%;
+    width: 7%;
+    display: flex;
+    padding-left: 1%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main article #acentos #traseiros button{
+    height: 3.5vw;
+    width: 3.5vw;
+    box-shadow: 0px 0px 0.2vw 0.1vw;
+}
+main article #acentos #traseiros button:hover{
+    background-color: rgb(15, 214, 8);
+}
+main article #acentos #meio{
+    height: 100%;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main article #acentos #meio #encima{
+    height: 40%;
+    width: 100%;
+}
+main article #acentos #meio #embaixo{
+    height: 40%;
+    width: 100%;
+}
+main article #acentos #meio #encima,
+main article #acentos #meio #embaixo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.90vw;
+}
+main article #acentos #meio #encima button,
+main article #acentos #meio #embaixo button{
+    height: 3.5vw;
+    width: 3.5vw;
+    box-shadow: 0px 0px 0.2vw 0.1vw;
+}
+main article #acentos #meio #encima button::after,
+main article #acentos #meio #embaixo button::after{
+    height: 3.5vw;
+    width: 3.5vw;
+    background-color: black;
+    box-shadow: 0px 0px 0.2vw 0.1vw;
+}
+main article #acentos #meio #encima button:hover,
+main article #acentos #meio #embaixo button:hover{
+    background-color: rgb(15, 214, 8);
+}
+main article #botoes{
+    height: 10vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+#pagar{
+    height: 37%;
+    margin-top: 2vw;
+    width: 40%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+}
+#pagamento{
+    position: fixed;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    bottom: 10vw;
+    left: 35vw;
+    background-color: rgb(238, 215, 182);
+    border-radius: 1vw;
+}
+
+#pagamento button{
+    float: right;
+    height: 2vw;
+    width: 2vw;
+
+}
+#pagamento div{
+    color: white;
+    height: 80%;
+    width: 80%;
+    margin: 10% 10% 10% 10%;
+}
+/* 
 .cardG-img{
     height: 100%;
     width: 30%;
@@ -169,7 +322,7 @@ article{
     margin-top: 1.5vw;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 0.86vw;
-}
+} */
 footer{
     background-color: #faebd7;
     width: 100%;

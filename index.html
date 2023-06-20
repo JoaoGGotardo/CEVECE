@@ -29,16 +29,41 @@
         <aside class="propaganda"> <p>Propaganda</p></aside>
         <div id="div-princ">
             <article>
-                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Pousada Praia Rifoles</b></p> <p class="cardP-txt">Pousada ótima para passar o feriado com a família, com piscina, beira mar, café da manhã com direito a linguiça alemã incluso e <a href="passeios.html">PASSEIO</a></p></section>
-                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Pousada Praia Rifoles</p></b> <p class="cardP-txt">Pousada ótima para passar o feriado com a família, com piscina, beira mar, café da manhã com direito a linguiça alemã incluso e <a href="passeios.html">PASSEIO</a></p></section>
-                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Pousada Praia Rifoles</p></b> <p class="cardP-txt">Pousada ótima para passar o feriado com a família, com piscina, beira mar, café da manhã com direito a linguiça alemã incluso e <a href="passeios.html">PASSEIO</a></p></section>
-                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Pousada Praia Rifoles</p></b> <p class="cardP-txt">Pousada ótima para passar o feriado com a família, com piscina, beira mar, café da manhã com direito a linguiça alemã incluso e <a href="passeios.html">PASSEIO</a></p></section>
+                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Passagem Canoas</b></p> <p class="cardP-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quae ipsa voluptatum fugiat laborum doloremque quo culpa.</p><a href="compra.html"><button>Comprar</button></a></section>
+                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Passagem Curitiba</p></b> <p class="cardP-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quae ipsa voluptatum fugiat laborum doloremque quo culpa.</p><a href="compra.html"><button>Comprar</button></a></section>
+                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Passagem Florianópolis</p></b> <p class="cardP-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quae ipsa voluptatum fugiat laborum doloremque quo culpa.</p><a href="compra.html"><button>Comprar</button></a></section>
+                <section class="card-pequeno"> <img src="img/resort.png" alt="" class="cardP-img"> <p class="cardP-tittle"><b>Passagem Eldorado do Sul</p></b> <p class="cardP-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quae ipsa voluptatum fugiat laborum doloremque quo culpa.</p><a href="compra.html"><button>Comprar</button></a></section>
             </article>
             <div class="card-grande">
-                <img src="img/passeio.jpg" alt="" class="cardG-img">
-                <div class="div-CG-txt">
-                <p class="cardG-tittle"><b>COMBO DE <a href="passeios.html"></a>PASSEIO</a></b></p>
-                <p class="cardG-txt">Na compra de um passeio ganha outro totalmente de GRAÇA. Incluso segundo passageiro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, impedit ea? Placeat iusto nesciunt ratione, hic magnam neque nobis quidem provident maiores velit, perspiciatis ad similique expedita minus facere nam? </p>
+                <div class="cal-preco">
+                    <h1>Preço da Passagem</h1>
+                </div>
+                <div class="cal-preco2">
+                    <div class="div-cal">
+                        <label for="">Embarque</label>
+                        <select id="select1">
+                            <option value="eldorado do sul">eldorado do sul</option>
+                            <option value="porto alegre">porto alegre</option>
+                            <option value="uruguaiana">uruguaiana</option>
+                            <option value="anta gorda">anta gorda</option>
+                            <option value="santa maria">santa maria</option>
+                        </select>
+                    </div>
+                    <div class="div-cal">
+                        <label for="">Desembarque</label>
+                        <select id="select2">
+                            <option value="eldorado do sul">eldorado do sul</option>
+                            <option value="porto alegre">porto alegre</option>
+                            <option value="uruguaiana">uruguaiana</option>
+                            <option value="anta gorda">anta gorda</option>
+                            <option value="santa maria">santa maria</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <div id="button-cal">
+                    <input id="result" type="text" placeholder="preço:">
+                    <button onclick="calcular()">Calcular</button>
                 </div>
             </div>
         </div>
@@ -78,5 +103,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
